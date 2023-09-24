@@ -10,28 +10,30 @@
   </head>
   <body>
     <script defer async>
-      document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener("DOMContentLoaded", function () {
         // setting global variables
-        window.botId = 2291
-        
+        window.botId = 2291;
+
         // create div with id = sarufi-chatbox
-        const div = document.createElement("div")
-        div.id = "sarufi-chatbox"
-        document.body.appendChild(div)
-    
+        const div = document.createElement("div");
+        div.id = "sarufi-chatbox";
+        document.body.appendChild(div);
+
         // create and attach script tag
-        const script = document.createElement("script")
-        script.crossOrigin = true
-        script.type = "module"
-        script.src = "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/script.js"
-        document.head.appendChild(script)
-    
+        const script = document.createElement("script");
+        script.crossOrigin = true;
+        script.type = "module";
+        script.src =
+          "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/script.js";
+        document.head.appendChild(script);
+
         // create and attach css
-        const style = document.createElement("link")
-        style.crossOrigin = true
-        style.rel = "stylesheet"
-        style.href = "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/style.css"
-        document.head.appendChild(style)
+        const style = document.createElement("link");
+        style.crossOrigin = true;
+        style.rel = "stylesheet";
+        style.href =
+          "https://cdn.jsdelivr.net/gh/flexcodelabs/sarufi-chatbox/example/vanilla-js/style.css";
+        document.head.appendChild(style);
       });
     </script>
     <nav id="desktop-nav">
@@ -63,7 +65,11 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.jpeg" alt="John Doe profile picture" class="profile-pic"/>
+        <img
+          src="./assets/profile-pic.jpeg"
+          alt="John Doe profile picture"
+          class="profile-pic"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -384,7 +390,9 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:gabrieldee77@gmail.com">gabrieldee77@gmail.com</a></p>
+          <p>
+            <a href="mailto:gabrieldee77@gmail.com">gabrieldee77@gmail.com</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -392,7 +400,11 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/gabriel-minzemalulu-056620211">LinkedIn</a></p>
+          <p>
+            <a href="https://www.linkedin.com/in/gabriel-minzemalulu-056620211"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
